@@ -6,4 +6,7 @@
 .botoes{
   width: 100%;
   display:flex;
+  position: relative;
+  justify-content: center;
+  top:50%;
 }
