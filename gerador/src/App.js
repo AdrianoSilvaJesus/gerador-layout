@@ -1,4 +1,7 @@
 import React from 'react';
+
+import Botao from './utilitarios/Botao/Botao';
+
 import './App.css';
 
 const App = () => {
@@ -10,12 +13,6 @@ const App = () => {
         <Botao texto="Layout 3"/>
       </div>
     </div>
-  );
-};
-
-const Botao = props => {
-  return(
-    <button className="botao">{props.texto}</button>
   );
 };
 
