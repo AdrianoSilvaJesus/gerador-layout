@@ -6,7 +6,10 @@ ul{
 }
 
 #menu{
+  width: 100%;
   height: 6%;
+  overflow: hidden;
+  position: fixed;
   background-color: #595757;
 }
 

@@ -13,8 +13,17 @@ const Layout1 = () => {
     <div className="layout1">
       <MenuHorizontal/>
       <main className="conteudo">
-        <article>
-          jjh
+        <article id="inicio" className="secao">
+
+        </article>
+        <article id="quem-somos" className="secao">
+
+        </article>
+        <article id="redes-sociais" className="secao">
+
+        </article>
+        <article id="fotos" className="secao">
+
         </article>
       </main>
     </div>
