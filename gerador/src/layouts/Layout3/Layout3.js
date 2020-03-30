@@ -1,5 +1,7 @@
 import React,{ useEffect } from 'react';
 
+import "./Layout2.css";
+
 const Layout3 = () => {
   useEffect(() => {
     document.title = "Layout 3";
