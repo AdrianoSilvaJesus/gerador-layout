@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useEffect } from 'react';
 import { BrowserRouter as Router,Route,Switch } from 'react-router-dom';
 
 import Botao from './utilitarios/Botao/Botao';
@@ -23,6 +23,10 @@ const App = () => {
 };
 
 const Inicio = () => {
+  useEffect(() => {
+    document.title = "Gerador de Layout";
+  });
+
   return(
     <div className="App">
       <div className="botoes">

@@ -6,7 +6,7 @@ import './Botao.css';
 const Botao = props => {
   if(props.to){
     return(
-      <button className="botao" onClick={() => console.log("Adriano")}><Link to={props.to}>{props.texto}</Link></button>
+      <button className="botao"><Link to={props.to}>{props.texto}</Link></button>
     );
   };
 
