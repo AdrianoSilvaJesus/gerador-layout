@@ -1,5 +1,7 @@
 import React,{ useEffect } from 'react';
 
+import MenuHorizontal from '../../utilitarios/MenuHorizontal/MenuHorizontal';
+
 import './Layout1.css';
 
 const Layout1 = () => {
@@ -8,7 +10,14 @@ const Layout1 = () => {
   });
 
   return(
-    <h1>Layout 1</h1>
+    <div className="layout1">
+      <MenuHorizontal/>
+      <main className="conteudo">
+        <article>
+          jjh
+        </article>
+      </main>
+    </div>
   );
 };
 

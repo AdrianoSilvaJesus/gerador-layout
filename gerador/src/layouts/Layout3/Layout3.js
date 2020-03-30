@@ -1,6 +1,6 @@
 import React,{ useEffect } from 'react';
 
-import "./Layout2.css";
+import "./Layout3.css";
 
 const Layout3 = () => {
   useEffect(() => {

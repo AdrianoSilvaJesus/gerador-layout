@@ -1,0 +1,28 @@
+ul{
+  padding: 0px;
+  margin: 0px;
+  height: 100%;
+  list-style: none;
+}
+
+#menu{
+  height: 6%;
+  background-color: #595757;
+}
+
+#menu ul li{
+  display: inline;
+}
+
+#menu ul li  a{
+  display: inline-block;
+  padding: 8px 10px;
+  /*Estilo do Link*/
+  text-decoration: none;
+  color:#72B5A4;
+  font-family: sans-serif;
+}
+
+#menu ul li a:hover{
+  border-bottom: 3px solid #72B5A4;
+}
