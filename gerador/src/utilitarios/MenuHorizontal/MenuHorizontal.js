@@ -8,7 +8,7 @@ const MenuHorizontal = () => {
       <ul>
         <li><a href="#inicio">inicio</a></li>
         <li><a href="#quem-somos">Quem somos</a></li>
-        <li><a href="#redes-socias">Redes Sociais</a></li>
+        <li><a href="#redes-sociais">Redes Sociais</a></li>
         <li><a href="#fotos">Fotos</a></li>
       </ul>
     </nav>
