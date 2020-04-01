@@ -7,6 +7,10 @@ const Slide = () => {
     <div className="slide">
       <div className="slide-imagem">
         <img width="100%" height="100%" alt="slideimage1" src="https://www.infoescola.com/wp-content/uploads/2019/10/paisagem-ouro-preto-1008049370.jpg"/>
+        <div className="slide-botoes">
+          <button className="slide-botao esquerdo">{"<"}</button>
+          <button className="slide-botao direito">{">"}</button>
+        </div>
       </div>
       <div className="slide-informacao">
         <h1>Titulo do slide</h1>
