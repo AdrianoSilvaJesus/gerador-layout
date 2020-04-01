@@ -1,6 +1,7 @@
 import React,{ useEffect } from 'react';
 
 import MenuHorizontal from '../../utilitarios/MenuHorizontal/MenuHorizontal';
+import Slide from '../../utilitarios/Slide/Slide';
 
 import './Layout1.css';
 
@@ -14,7 +15,7 @@ const Layout1 = () => {
       <MenuHorizontal/>
       <main className="conteudo">
         <article id="inicio" className="secao">
-          Inicio
+          <Slide/>
         </article>
         <article id="quem-somos" className="secao">
           Quem somos
