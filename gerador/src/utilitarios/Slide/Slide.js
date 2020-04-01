@@ -38,7 +38,7 @@ const imagens = [
 
 const Slide = () => {
 
-  const [imagemAtual,setImagemAtual] = useReducer(reducer,{id:2})
+  const [imagemAtual,setImagemAtual] = useReducer(reducer,{id:0})
 
   return(
     <div className="slide">
